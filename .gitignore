@@ -1,0 +1,15 @@
+
+
+# Ignore OS-specific files
+.DS_Store
+
+# Logs
+logs
+*.log
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
