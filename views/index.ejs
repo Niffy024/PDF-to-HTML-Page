@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload PDF</title>
+    <link rel="stylesheet" href="styles/indexStyles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Available Courses</h1>
+    </header>
+
+    <section class="course-management">
+      <button id="add-course-btn">Add Course</button>
+    </section>
+
+    <section class="course-list" id="course-list">
+      <!-- Courses will be dynamically added here -->
+    </section>
+
+    <form id="course-form" class="course-form">
+      <h3>Add Course</h3>
+      <label for="course-title">Course Title:</label>
+      <input type="text" id="course-title" name="courseTitle" required />
+
+      <label for="instructor">Instructor:</label>
+      <input type="text" id="instructor" name="instructor" required />
+
+      <label for="course-duration">Course Duration:</label>
+      <input type="text" id="course-duration" name="courseDuration" required />
+
+      <label for="course-description">Course Description:</label>
+      <textarea
+        id="course-description"
+        name="courseDescription"
+        required
+      ></textarea>
+
+      <button type="button" class="cancel-btn" id="cancel-course-btn">
+        Cancel
+      </button>
+      <button type="submit" class="green-btn">Save Course</button>
+    </form>
+
+    <script src="scripts/indexScript.js"></script>
+  </body>
+</html>

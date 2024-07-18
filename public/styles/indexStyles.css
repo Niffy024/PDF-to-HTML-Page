@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6F2036;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #6F2036;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .pdf-upload,
+  .course-management,
+  .course-list {
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .course-management button {
+    background-color: #6F2036;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .course-management button:hover {
+    background-color: #6F2036;
+  }
+  .course-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #6F2036;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .course-form label,
+  .course-form input,
+  .course-form textarea {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .course-form button {
+    background-color: #6F2036;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .course-form button:hover {
+    background-color: #6F2036;
+  }
+  .course-item {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .course-item h2 {
+    color: #6F2036;
+  }
+  .course-item a {
+    color: #6F2036;
+    text-decoration: none;
+  }
+  .course-item a:hover {
+    text-decoration: underline;
+  }
+  .pdf-upload {
+    margin-top: 20px;
+  }
+  .green-btn {
+    background-color: #6F2036;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .green-btn:hover {
+    background-color: #6F2036;
+  }
+  .cancel-btn {
+    background-color: #6F2036;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .cancel-btn:hover {
+    background-color: #999;
+  }
+  .remove-btn {
+    background-color: #6F2036;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .remove-btn:hover {
+    background-color: #6F2036;
+  }
+  .remove-chapter-btn {
+    background-color: #6F2036;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .remove-chapter-btn:hover {
+    background-color: #6F2036;
+  }
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #6F2036;
+    color: white;
+  }
